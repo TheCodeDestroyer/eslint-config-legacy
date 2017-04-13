@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-tcd",
+  "version": "0.0.1",
+  "description": "My config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheCodeDestroyer/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Nace Logar <the.code.destroyer@gmail.com> (https://thecodedestroyer.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheCodeDestroyer/eslint-config/issues"
+  },
+  "homepage": "https://github.com/TheCodeDestroyer/eslint-config#readme"
+}
