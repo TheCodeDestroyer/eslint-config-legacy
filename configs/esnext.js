@@ -18,6 +18,7 @@ module.exports = {
         'prefer-numeric-literals': 'error',
         'prefer-rest-params': 'error',
         'prefer-spread': 'error',
-        'prefer-template': 'error'
+        'prefer-template': 'error',
+        'no-invalid-this': 'error'
     }
 };
