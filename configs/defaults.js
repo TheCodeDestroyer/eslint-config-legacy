@@ -1,4 +1,4 @@
-{
+module.exports = {
     "rules": {
         "accessor-pairs": "error",
         "array-bracket-spacing": "off",
@@ -261,4 +261,4 @@
         "yield-star-spacing": ["error", "both"],
         "yoda": ["error", "never"]
     }
-}
+};
