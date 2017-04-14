@@ -39,10 +39,19 @@ You can override settings from the shareable config by adding them directly into
 * `tcd` - ES5 config
 * `tcd/configs/esnext` - ES6 config
 * `tcd/configs/node` - NodeJS config
-* `tcd/configs/angular` - AngularJS config
+* `tcd/configs/ng` - AngularJS config; Requires [eslint-plugin-angular][eslint-plugin-angular]
+
+
+[//]: # (URLs)
+
+[//]: # (main)
 
 [npm-image]: https://img.shields.io/npm/v/eslint-config-tcd.svg
 [npm-url]: https://npmjs.org/package/eslint-config-tcd
 [downloads-image]: https://img.shields.io/npm/dm/eslint-config-tcd.svg
 [downloads-url]: https://npmjs.org/package/eslint-config-tcd
 [shareable-configs-url]: http://eslint.org/docs/developer-guide/shareable-configs
+
+[//]: # (other)
+
+[eslint-plugin-angular]: https://www.npmjs.com/package/eslint-plugin-angular
