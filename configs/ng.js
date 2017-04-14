@@ -1,8 +1,6 @@
 module.exports = {
     'extends': 'tcd',
-    'globals': {
-        'angular': true
-    },
+    'globals': { 'angular': true },
     'plugins': [
         'angular'
     ],

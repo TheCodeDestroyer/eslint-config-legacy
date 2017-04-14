@@ -1,7 +1,5 @@
 module.exports = {
-    'env': {
-        'browser': true
-    },
+    'env': { 'browser': true },
     'rules': {
         'accessor-pairs': 'error',
         'array-bracket-spacing': 'off',
@@ -77,7 +75,7 @@ module.exports = {
         'no-alert': 'error',
         'no-await-in-loop': 'error',
         'no-bitwise': 'error',
-        'no-buffer-constructor': 'off', // TODO ...
+        'no-buffer-constructor': 'off',
         'no-case-declarations': 'error',
         'no-catch-shadow': 'error',
         'no-confusing-arrow': 'error',
