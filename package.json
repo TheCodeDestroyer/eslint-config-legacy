@@ -4,7 +4,8 @@
   "description": "My config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "find-missing-rules": "eslint-find-rules -un"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,8 @@
   },
   "homepage": "https://github.com/TheCodeDestroyer/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^3.19.0"
+    "eslint": "^3.19.0",
+    "eslint-find-rules": "^1.14.3"
   },
   "peerDependencies": {
     "eslint": ">= 3"
