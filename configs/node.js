@@ -1,6 +1,7 @@
 module.exports = {
-    'extends': 'tcd/configs/esnext',
+    'extends': 'tcd/configs/default',
     'env': {
         'node': true
-    }
+    },
+    'rules': {}
 };

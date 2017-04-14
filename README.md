@@ -37,8 +37,9 @@ You can override settings from the shareable config by adding them directly into
 ### All available configs
 
 * `tcd` - ES5 config
-* `tcd/configs/esnext` - ES6 config
-* `tcd/configs/node` - NodeJS config
+* `tcd/configs/esnext` - ESNext config
+* `tcd/configs/node` - NodeJS ES5 config
+* `tcd/configs/node-esnext` - NodeJS ESNext config
 * `tcd/configs/ng` - AngularJS config; Requires [eslint-plugin-angular][eslint-plugin-angular]
 
 
