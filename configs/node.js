@@ -1,7 +1,5 @@
 module.exports = {
     'extends': 'tcd/configs/default',
-    'env': {
-        'node': true
-    },
+    'env': { 'node': true },
     'rules': {}
 };

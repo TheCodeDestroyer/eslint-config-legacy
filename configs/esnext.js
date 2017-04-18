@@ -2,7 +2,7 @@ module.exports = {
     'extends': 'tcd',
     'parserOptions': {
         'ecmaVersion': 8,
-        'ecmaFeatures': {  'experimentalObjectRestSpread': true },
+        'ecmaFeatures': { 'experimentalObjectRestSpread': true },
         'sourceType': 'module'
     },
     'env': { 'es6': true },
