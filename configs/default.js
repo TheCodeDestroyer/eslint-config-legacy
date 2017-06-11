@@ -12,7 +12,7 @@ module.exports = {
         'block-scoped-var': 'error',
         'callback-return': 'off',
         'capitalized-comments': 'off',
-        'class-methods-use-this': 'error',
+        'class-methods-use-this': 'off',
         'complexity': 'off',
         'computed-property-spacing': ['error', 'never'],
         'consistent-return': ['error', { 'treatUndefinedAsUnspecified': true }],
