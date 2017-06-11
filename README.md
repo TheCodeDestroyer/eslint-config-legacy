@@ -41,6 +41,7 @@ You can override settings from the shareable config by adding them directly into
 * `tcd/configs/node` - NodeJS ES5 config
 * `tcd/configs/node-esnext` - NodeJS ESNext config
 * `tcd/configs/ng` - AngularJS config; Requires [eslint-plugin-angular][eslint-plugin-angular]
+* `tcd/configs/react` - [WIP] React config; Requires [eslint-plugin-react][eslint-plugin-react]
 
 
 [//]: # (URLs)
@@ -56,3 +57,4 @@ You can override settings from the shareable config by adding them directly into
 [//]: # (other)
 
 [eslint-plugin-angular]: https://www.npmjs.com/package/eslint-plugin-angular
+[eslint-plugin-react]: https://www.npmjs.com/package/eslint-plugin-react
