@@ -1,5 +1,5 @@
 module.exports = {
-    'extends': ['esnext'],
+    'extends': ['tcd/configs/esnext'],
     'plugins': [
         'react'
     ],
