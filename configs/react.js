@@ -1,5 +1,5 @@
 module.exports = {
-    'extends': ['tcd/configs/esnext'],
+    'extends': 'tcd/configs/esnext',
     'parserOptions': {
         'ecmaFeatures': {
             'jsx': true
