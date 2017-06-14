@@ -208,9 +208,19 @@ module.exports = {
         'no-unreachable': 'error',
         'no-unsafe-finally': 'error',
         'no-unsafe-negation': 'error',
-        'no-unused-expressions': ['error', { 'allowShortCircuit': true, 'allowTernary': true, 'allowTaggedTemplates': true }],
-        'no-unused-vars': ['error', { 'vars': 'all', 'args': 'none', 'ignoreRestSiblings': true }],
-        'no-use-before-define': ['error', { 'functions': false, 'classes': false, 'variables': false }],
+        'no-unused-expressions': ['error', {
+            'allowShortCircuit': true,
+            'allowTernary': true,
+            'allowTaggedTemplates': true
+        }],
+        'no-unused-vars': ['error', {
+            'vars': 'all',
+            'args': 'none',
+            'ignoreRestSiblings': true
+        }],
+        'no-use-before-define': ['error', {
+            'functions': false, 'classes': false, 'variables': false
+        }],
         'no-useless-call': 'error',
         'no-useless-computed-key': 'error',
         'no-useless-constructor': 'error',
@@ -219,11 +229,21 @@ module.exports = {
         'no-useless-return': 'error',
         'no-whitespace-before-property': 'error',
         'no-with': 'error',
-        'object-curly-newline': ['error', { 'multiline': true }],
+        'object-curly-newline': ['error', {
+            'ObjectExpression': {
+                'multiline': true,
+                'minProperties': 3
+            },
+            'ObjectPattern': 'never'
+        }],
         'object-property-newline': ['error', { 'allowMultiplePropertiesPerLine': true }],
         'one-var': ['error', 'always'],
         'operator-linebreak': ['error', 'after', { 'overrides': { '?': 'before', ':': 'before' } }],
-        'padded-blocks': ['error', { 'blocks': 'never', 'switches': 'never', 'classes': 'never' }],
+        'padded-blocks': ['error', {
+            'blocks': 'never',
+            'switches': 'never',
+            'classes': 'never'
+        }],
         'prefer-promise-reject-errors': 'error',
         'object-shorthand': ['error', 'never'],
         'one-var-declaration-per-line': 'off',
@@ -258,7 +278,11 @@ module.exports = {
         'spaced-comment': [
             'error', 'always', {
                 'line': { 'markers': ['*package', '!', '/', ','] },
-                'block': { 'balanced': true, 'markers': ['*package', '!', ',', ':', '::', 'flow-include'], 'exceptions': ['*'] }
+                'block': {
+                    'balanced': true,
+                    'markers': ['*package', '!', ',', ':', '::', 'flow-include'],
+                    'exceptions': ['*']
+                }
             }
         ],
         'symbol-description': 'error',
